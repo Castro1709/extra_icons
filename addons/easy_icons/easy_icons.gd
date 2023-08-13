@@ -9,7 +9,7 @@ func _enter_tree() -> void:
 	await get_tree().process_frame
 	if get_node_or_null("/root/IconsHTTPService")!=null:
 		get_node("/root/IconsHTTPService").plugin_ref = self
-	add_tool_menu_item("Easy icons utilities",show_utilities)
+		
 	
 
 func _exit_tree() -> void:
